@@ -118,6 +118,8 @@
 		3ABD58E02A4324260001BB75 /* mandiritestassesment */ = {
 			isa = PBXGroup;
 			children = (
+				3AF926DD2A43253E008052E6 /* feature */,
+				3AF926DC2A432536008052E6 /* services */,
 				3ABD58E12A4324260001BB75 /* AppDelegate.swift */,
 				3ABD58E32A4324260001BB75 /* SceneDelegate.swift */,
 				3ABD58E52A4324260001BB75 /* ViewController.swift */,
@@ -147,6 +149,68 @@
 			path = mandiritestassesmentUITests;
 			sourceTree = "<group>";
 		};
+		3AF926DC2A432536008052E6 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		3AF926DD2A43253E008052E6 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				3AF926DE2A432556008052E6 /* GenreMovie */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		3AF926DE2A432556008052E6 /* GenreMovie */ = {
+			isa = PBXGroup;
+			children = (
+				3AF926E02A43257E008052E6 /* view */,
+				3AF926E12A4325AF008052E6 /* interactor */,
+				3AF926E22A4325BB008052E6 /* presenter */,
+				3AF926E32A4325C4008052E6 /* entity */,
+				3AF926E42A4325D5008052E6 /* router */,
+			);
+			path = GenreMovie;
+			sourceTree = "<group>";
+		};
+		3AF926E02A43257E008052E6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3AF926E12A4325AF008052E6 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3AF926E22A4325BB008052E6 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3AF926E32A4325C4008052E6 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		3AF926E42A4325D5008052E6 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
 		48D46E5CED6A56809DDD978A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +221,6 @@
 				D5686CED6629BD250708CD3B /* Pods-mandiritestassesmentTests.debug.xcconfig */,
 				EE1C98AECBC0DAA6DB23D7BD /* Pods-mandiritestassesmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
