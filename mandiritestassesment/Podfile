@@ -6,6 +6,8 @@ target 'mandiritestassesment' do
   use_frameworks!
 
   pod 'Alamofire'
+  pod 'RxSwift', '6.0.0'
+  pod 'RxCocoa', '6.0.0'
 
   target 'mandiritestassesmentTests' do
     inherit! :search_paths
